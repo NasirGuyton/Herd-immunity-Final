@@ -1,0 +1,17 @@
+=== Simulation Start ===
+Population Size:	1000
+Vaccination Percentage:	0.1
+Virus Name:	Sniffles
+Mortality Rate:	0.12
+Basic Reproduction Number:	0.5
+
+Step 1 Interactions:	Total Interactions = 1000	New Infections = 359
+Step 1 Results:	Population = 1000	New Fatalities = 0
+Step 2 Interactions:	Total Interactions = 35900	New Infections = 531
+Step 2 Results:	Population = 1000	New Fatalities = 45
+
+=== Simulation End ===
+Total Steps:	2
+Living:	955
+Dead:	45
+Vaccinated:	424
