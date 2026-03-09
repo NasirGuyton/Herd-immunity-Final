@@ -47,10 +47,17 @@ if __name__ == "__main__":
     # Test an infected person. An infected person has an infection/virus
     virus = Virus("Dysentery", 0.7, 0.2)
     infected_person = Person(3, False, virus)
+
     assert infected_person._id == 3
     assert infected_person.is_alive is True
     assert infected_person.is_vaccinated is False
     assert infected_person.infection == virus
+
+    assert infected_person.is_alive is True
+    assert infected_person.infection.name == "Dysentery"
+
+    vaccinated_test = Person(4, True)
+    assert vaccinated_test.infection is None
 
     # Check survival across many infected people
     people = []
