@@ -1,0 +1,21 @@
+Herd Immunity Simulation Answers
+
+1. Inputs used:
+Population size: 1000
+Vaccination percentage: 0.1
+Virus name: Sniffles
+Mortality rate: 0.12
+Reproduction rate: 0.5
+Initial infected: 10
+
+2. Percentage of population infected at some point:
+This run ended with 424 vaccinated people and started with 100 vaccinated people.
+So approximately 324 additional people were infected and recovered.
+Adding the 45 who died gives about 369 total infected people.
+369 / 1000 = 36.9%
+
+3. Percentage of population that died:
+45 / 1000 = 4.5%
+
+4. Out of all interactions sick individuals had during the simulation, how many times did vaccination save someone?
+This is not being explicitly counted in the current version of the simulation, so an exact number is not available from the current log.
